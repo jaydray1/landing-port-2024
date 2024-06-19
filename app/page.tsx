@@ -1,14 +1,16 @@
+import About from "@/components/About";
 import Nav from "@/components/Nav";
-import Image from "next/image";
+import { Fragment } from "react";
 
 export default function Home() {
   return (
-    <>
-      <Nav />
-      <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        </div>
+    <div className="flex">
+      <div>
+        <Nav />
+      </div>
+      <main className="flex justify-center w-dvw">
+          <About />
       </main>
-    </>
+    </div>
   );
 }

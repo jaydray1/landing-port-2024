@@ -5,7 +5,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
 
 const Nav = () => (
-    <div className="flex flex-col w-[20rem] h-lvh justify-between">
+    <div className="flex flex-col w-[16rem] h-dvh justify-between">
         <nav>
             <a className="pl-6">Home</a>
             <hr />
@@ -14,7 +14,7 @@ const Nav = () => (
             <a className="pl-6">Experience</a>
         </nav>
 
-        <div className="flex justify-evenly">
+        <div className="flex justify-evenly pb-3">
             <a href="https://www.instagram.com/jdreher/" target="_blank" rel="noreferrer noopener">
             <FontAwesomeIcon icon={faInstagram} />
             </a>
