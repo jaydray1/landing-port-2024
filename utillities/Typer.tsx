@@ -22,7 +22,7 @@ const TypingAnimation = () => {
   }, []);
   return (
     <Fragment>
-      <span id="type-it" className="subtitle subtitle-typed" ref={el}></span>
+      <span id="type-it" className="text-lg font-medium" ref={el}></span>
     </Fragment>
   );
 };
