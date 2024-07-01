@@ -1,10 +1,9 @@
 import About from "@/components/About";
 import Nav from "@/components/Nav";
-import { Fragment } from "react";
 
 export default function Home() {
   return (
-    <div className="flex">
+    <div className="flex bg-gray-900">
       <div>
         <Nav />
       </div>
