@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import HomeIntro from "@/components/HomeIntro";
 import Nav from "@/components/Nav";
 
 export default function Home() {
@@ -7,7 +8,8 @@ export default function Home() {
       <div>
         <Nav />
       </div>
-      <main className="flex justify-center w-dvw">
+      <main className="flex flex-col align-center w-dvw ml-[16rem]">
+          <HomeIntro />
           <About />
       </main>
     </div>
