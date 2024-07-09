@@ -1,6 +1,7 @@
-const experienceSet = [
+export const experienceSet = [
     {
-        image: '',
+        image: '/a1.png',
+        imageAltText: 'image of jane logo',
         companyName: 'Jane',
         title: 'Frontend Engineer, Senior',
         dates: 'Feb 2020 - Dec 2023',
@@ -12,7 +13,8 @@ const experienceSet = [
 
     },
     {
-        image: '',
+        image: '/a2.png',
+        imageAltText: 'image of byte logo',
         companyName: 'Byte',
         title: 'Frontend Engineer',
         dates: 'Jun 2019 - Jan 2020',
@@ -24,7 +26,8 @@ const experienceSet = [
 
     },
     {
-        image: '',
+        image: '/a3.png',
+        imageAltText: 'image of COMPanion logo',
         companyName: 'COMPanion Corporation',
         title: 'Frontend Engineer',
         dates: 'Mar 2018 - Jun 2019',

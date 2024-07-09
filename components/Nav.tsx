@@ -42,7 +42,7 @@ const Nav = () => {
                 <nav className="flex flex-col gap-y-4">
                     <a href="#home" className="pl-6 cursor-pointer hover:text-amber-400 focus:text-amber-400 active:text-amber-600 target:bg-red"><FontAwesomeIcon icon={faHouse} className="mr-3" />Home</a>
                     <a href="#about" className="pl-6 cursor-pointer hover:text-amber-400 focus:text-amber-400 active:text-amber-600"><FontAwesomeIcon icon={faAddressCard} className="mr-3" />About</a>
-                    <a href="#contact" className="pl-6 cursor-pointer hover:text-amber-400 focus:text-amber-400 active:text-amber-600"><FontAwesomeIcon icon={faMapLocationDot} className="mr-3"/>Experience</a>
+                    <a href="#experience" className="pl-6 cursor-pointer hover:text-amber-400 focus:text-amber-400 active:text-amber-600"><FontAwesomeIcon icon={faMapLocationDot} className="mr-3"/>Experience</a>
                 </nav>
             </div>
 
