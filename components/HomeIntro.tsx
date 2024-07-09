@@ -14,7 +14,10 @@ const HomeIntro = () => (
         <a className="cursor-pinter underline hover:decoration-2 underline-offset-8 decoration-amber-400" href="https://azure-donny-32.tiiny.site" rel="noopener noreferrer" target="_blank">View Resume</a>
         </div>
         <div className="relative">
+            <figure>
             <Image src="/_big_about_me.jpg" alt="image of Jon-Michael Dreher" width={500} height={700}/>
+            <figcaption className="italic mt-4 text-center">Image of me fishing in Alaska</figcaption>
+            </figure>
         </div>
     </section>
 )
