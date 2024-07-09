@@ -8,7 +8,7 @@ export default function Home() {
       <div>
         <Nav />
       </div>
-      <main className="flex flex-col align-center w-dvw ml-[16rem]">
+      <main className="flex flex-col align-center w-dvw md:ml-[16rem]">
           <HomeIntro />
           <About />
       </main>

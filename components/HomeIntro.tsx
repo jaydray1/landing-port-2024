@@ -4,7 +4,7 @@ import TypingAnimation from "@/utillities/Typer"
 import Image from 'next/image'
 
 const HomeIntro = () => (
-    <section id="home" className="grid grid-cols-2 gap-20 w-[64rem] self-center items-center h-screen">
+    <section id="home" className="grid md:grid-cols-2 md:gap-20 md:w-[64rem] self-center items-center h-screen">
         <div>
             <h6 className="pb-6 text-2xl font-medium">Hello, I am</h6>
             <h1 className="pb-6 text-6xl font-bold">Jon-Michael</h1>
