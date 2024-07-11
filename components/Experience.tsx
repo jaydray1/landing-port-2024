@@ -10,7 +10,7 @@ const Experience = () => (
             <div key={experience.companyName} >
                 <div className='flex lg:w-[64rem] bg-slate-800 gap-10 items-center'>
                     <div>
-                        <Image className="bg-white m-4 max-w-fit" src={experience.image} alt={experience.imageAltText} width={150} height={150}/>
+                        <Image className="bg-white m-4" src={experience.image} alt={experience.imageAltText} width={150} height={150}/>
                     </div>
                     <div>
                         <h4 className="mb-2 font-bold tracking-wider text-lg">{experience.title}</h4>

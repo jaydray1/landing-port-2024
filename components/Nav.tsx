@@ -12,7 +12,7 @@ config.autoAddCss = false
 const Nav = () => (
     <>
         <nav role="navigation" aria-label="Main menu" className="lg:hidden">
-            <div className="w-full fixed bg-gray-900 py-5 z-10">
+            <div className="w-screen fixed bg-gray-900 py-5 z-10">
                 <ul className="flex justify-around">
                     <a href="#home" className="pl-6 cursor-pointer hover:text-amber-400 focus:text-amber-400 active:text-amber-600 target:bg-red">Home</a>
                     <a href="#about" className="pl-6 cursor-pointer hover:text-amber-400 focus:text-amber-400 active:text-amber-600">About</a>
