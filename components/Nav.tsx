@@ -5,13 +5,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { config } from '@fortawesome/fontawesome-svg-core'
 import Image from 'next/image'
 import '@fortawesome/fontawesome-svg-core/styles.css'
-import { faAddressCard, faBars, faHouse, faMapLocationDot, faX } from "@fortawesome/free-solid-svg-icons"
-import { useState } from "react"
+import { faAddressCard, faHouse, faMapLocationDot } from "@fortawesome/free-solid-svg-icons"
 config.autoAddCss = false
 
 const Nav = () => (
     <>
-        <nav role="navigation" aria-label="Main menu" className="lg:hidden">
+        <nav role="navigation" aria-label="Main menu" className="relative lg:hidden">
             <div className="w-screen fixed bg-gray-900 py-5 z-10">
                 <ul className="flex justify-around">
                     <a href="#home" className="pl-6 cursor-pointer hover:text-amber-400 focus:text-amber-400 active:text-amber-600 target:bg-red">Home</a>
