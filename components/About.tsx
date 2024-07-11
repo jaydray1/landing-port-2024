@@ -3,7 +3,7 @@
 import Image from 'next/image'
 
 const About = () => (
-    <section id="about" className="lg:grid lg:grid-cols-2 lg:gap-20 lg:w-[64rem] flex flex-col-reverse lg:flex-col self-center items-center lg:h-screen">
+    <section id="about" className="mt-12 lg:grid lg:grid-cols-2 lg:gap-20 lg:w-[64rem] flex flex-col-reverse lg:flex-col self-center items-center lg:h-screen">
         <div className="relative">
             <figure>
                 <Image src="/_home-banner.jpg" alt="image of Jon-Michael Dreher" width={500} height={700}/>
