@@ -16,7 +16,7 @@ const About = () => (
             experience.{" "}</h3>
             <p className='my-6 tracking-wide'>{` 
                 I call the Wasatch Mountains of Salt Lake City home. 
-                I integrate seanlessly with motivated, intelligent, 
+                I integrate seamlessly with motivated, intelligent, 
                 and passionate engineers and managers to bring ideas 
                 and products to market and life quickly and efficiently. 
                 I tie my goals as an engineer into the goals of the companies 
